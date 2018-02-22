@@ -1,0 +1,43 @@
+.song {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 350px;
+    margin-left:70px;
+    text-shadow:3px 3px 20px black;
+    color:white;
+    border-bottom: 1px solid #0a4b08;
+}
+
+
+.content {
+    width:100%;
+    padding-top:50px;
+    margin-bottom:50px;
+}
+
+h1 {
+    display: inline;
+    border-bottom: 1px solid #0a4b08;
+}
+
+body {
+    background-image: url(../images/background.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: 250px 0;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+.nostress {
+    font-weight: bold;
+    font-size:16px;
+    color:#0a4b08;
+}
