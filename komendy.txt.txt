@@ -1,0 +1,1 @@
+$npm autoprefixer-cli -o style.prefixed.css style.css

@@ -1,7 +1,10 @@
 .song {
+    display:-ms-flexbox;
     display:flex;
-    justify-content: flex-start;
-    flex-direction: column;
+    -ms-flex-pack: start;
+        justify-content: flex-start;
+    -ms-flex-direction: column;
+        flex-direction: column;
     max-width: 350px;
     margin-left:70px;
     text-shadow:3px 3px 20px black;
