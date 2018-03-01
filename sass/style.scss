@@ -1,15 +1,11 @@
 .song {
-    display:-ms-flexbox;
     display:flex;
-    -ms-flex-pack: start;
-        justify-content: flex-start;
-    -ms-flex-direction: column;
-        flex-direction: column;
     max-width: 350px;
     margin-left:70px;
     text-shadow:3px 3px 20px black;
     color:white;
     border-bottom: 1px solid #0a4b08;
+    
 }
 
 
